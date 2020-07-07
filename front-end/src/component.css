@@ -1,0 +1,15 @@
+.navbar {
+  padding: 10px;
+  background: #ffe47a;
+  height: 13vh;
+  box-shadow: 2px 2px 4px 2px #ffcc00;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  
+}
+
+.nav-link {
+  font-size: 12px;
+  color: #2e9a9a;
+  margin-right: 10px;
+}
