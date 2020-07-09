@@ -1,19 +1,24 @@
 import React from "react"
 import { Nav, Navbar } from "react-bootstrap"
-import "../component.css"
-import logo from "../images/pngguru.com.png"
+import "./NavBar.css"
+import logo from "../images/Egg Logo Final-01.png"
 
 function NavBar() {
   return (
     <Navbar>
       <img
         src={logo}
-        width="45"
-        height="45"
+        width="75"
+        height="90"
         className="d-inline-block align-top"
         href="/"
       />
-      <Navbar.Brand style={{ fontSize: '27px', fontWeight: 300, paddingLeft: '10px' }} href="/">the egg</Navbar.Brand>
+      <Navbar.Brand
+        style={{ fontSize: "27px", fontWeight: 300, paddingLeft: "10px" }}
+        href="/"
+      >
+        the egg
+      </Navbar.Brand>
 
       <Nav className="mr-auto"></Nav>
       <Nav>

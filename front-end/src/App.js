@@ -1,7 +1,7 @@
 import React, { Component } from "react"
-import "./App.css"
 import NavBar from "./components/NavBar"
 import HomePage from "./components/HomePage"
+import Profile from "./components/Profile"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           Roadmap
         </Route>
         <Route exact path="/profile">
-          Profile
+          <Profile />
         </Route>
         <Route exact path="/community">
           Community
