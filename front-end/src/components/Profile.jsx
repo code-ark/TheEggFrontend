@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { Jumbotron } from "react-bootstrap"
 import profilePhoto from "../images/noah.jpg"
-import "./Profile.css"
+import "./profile.css"
 
 function Profile() {
   const [person, setPerson] = useState({

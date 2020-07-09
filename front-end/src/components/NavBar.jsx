@@ -1,6 +1,6 @@
 import React from "react"
 import { Nav, Navbar } from "react-bootstrap"
-import "./NavBar.css"
+import "./navBar.css"
 import logo from "../images/Egg Logo Final-01.png"
 
 function NavBar() {

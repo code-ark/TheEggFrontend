@@ -1,0 +1,28 @@
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  height: 55vh;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-family: 'montserrat';
+  font-size: 1px;
+  margin: 0 auto; 
+  
+}
+.signup-text {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  font-family: 'montserrat';
+  width: 65vw;
+  text-align: center;
+  font-weight: 200;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
