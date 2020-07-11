@@ -14,7 +14,6 @@ function Login() {
         />
         <Navbar.Brand
           style={{ fontSize: "27px", fontWeight: 300, paddingLeft: "10px" }}
-          exact
           href="/landingpage"
         >
           the egg

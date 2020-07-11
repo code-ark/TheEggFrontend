@@ -12,6 +12,7 @@ function NavBar() {
         height="90"
         className="d-inline-block align-top"
         href="/"
+        alt=''
       />
       <Navbar.Brand
         style={{ fontSize: "27px", fontWeight: 300, paddingLeft: "10px" }}
